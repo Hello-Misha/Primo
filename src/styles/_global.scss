@@ -1,0 +1,107 @@
+@import "variables.scss";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+#root {
+  height: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 15rem;
+}
+
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  line-height: normal;
+  font-family: $Montserrat;
+  color: $MainColor;
+  overflow-x: hidden;
+}
+
+main {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  box-shadow: $boxShadow;
+  overflow: hidden;
+
+  position: relative;
+  top: 5rem;
+
+  padding-bottom: 10rem;
+
+  @include breakpoint(md) {
+    top: 8rem;
+  }
+}
+
+section {
+  overflow: hidden;
+  margin: 2rem auto;
+  width: 100%;
+  max-width: 1440px;
+
+  padding: 0 1.5rem;
+  @include breakpoint(md) {
+    padding: 0 3rem;
+  }
+  @include breakpoint(xxl) {
+    padding: 0;
+  }
+}
+
+.swiper-slide img {
+  width: 100%;
+  max-width: 100%;
+  border-radius: $borderRadius2;
+  text-align: center;
+
+  cursor: pointer;
+}
+
+.swiper {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 90vw;
+
+  @include breakpoint(sm) {
+    max-width: 80vw;
+  }
+}

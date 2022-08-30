@@ -1,0 +1,71 @@
+@import "../../styles/variables";
+
+.formSection {
+  @include breakpoint(md) {
+    margin: 8rem auto;
+  }
+
+  &__form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    @include breakpoint(md) {
+      align-items: center;
+    }
+
+    &__inputs {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+
+      @include breakpoint(md) {
+        flex-direction: row;
+        justify-content: space-between;
+      }
+      label {
+        width: 100%;
+        @include breakpoint(md) {
+          width: 32%;
+        }
+        input {
+          border: 4px solid $MainColor;
+          border-radius: $borderRadius;
+          width: 100%;
+          padding: 0.5rem 0 0.5rem 1rem;
+        }
+      }
+      label:nth-child(2) {
+        margin: 0.5rem 0;
+        @include breakpoint(md) {
+          margin: 0;
+        }
+      }
+    }
+    &__submitBtnContainer {
+      width: 100%;
+      margin: 0.5rem 0;
+
+      @include breakpoint(md) {
+        width: 32%;
+        margin: 0.5rem 0;
+      }
+      &__btn {
+        width: 100%;
+        background-color: $MainColor;
+        border-radius: $borderRadius;
+        color: #fff;
+        border: none;
+        padding: 1rem;
+
+        @include breakpoint(md) {
+        }
+
+        &:active {
+          padding: 0.5rem;
+          background-color: $MainColor;
+          box-shadow: $boxShadow;
+        }
+      }
+    }
+  }
+}

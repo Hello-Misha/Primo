@@ -1,0 +1,225 @@
+{
+  "app_title": "PrimoDoor - Intercom system in your smartphone",
+  "navigation": {
+    "bage": "Made in Ukraine",
+    "product": "Product",
+    "connection": "Connection",
+    "hardware": "Hadware"
+  },
+  "main": "Intercom system in your smartphone",
+  "description": {
+    "title": "PrimoDoor is",
+    "ul": {
+      "1": "Unique and protected key cards for object control and security",
+      "2": "Video intercom in a smartphone (iOS, Android)",
+      "3": "Convenient access to parking and auxiliary entrances",
+      "4": "Self-management of the service in a personal online office"
+    }
+  },
+  "stats": {
+    "first": {
+      "title": "26",
+      "paragraph": "houses and housing complexes"
+    },
+    "second": {
+      "title": "1200+",
+      "paragraph": "mobile app users"
+    },
+    "third": {
+      "title": "4500+",
+      "paragraph": "users of physical cards"
+    }
+  },
+  "features": {
+    "title": "PrimoDoor functions",
+    "text": [
+      {
+        "name": "No wires or panels",
+        "description": "It works via the Internet thanks to the application on the phone. No wires and panels in the apartments"
+      },
+      {
+        "name": "Access from any point",
+        "description": "Opens the door of your entrance from any point - both from the couch and from another country."
+      },
+      {
+        "name": "Opening without a key",
+        "description": "You can open the door yourself, you don't need to carry keys."
+      },
+      {
+        "name": "Video calls",
+        "description": "You can see who came to you."
+      }
+    ]
+  },
+  "partners": {
+    "title": "Already using PrimoDoor systems"
+  },
+  "connection": {
+    "title": "Connecting PrimoDoor",
+    "steps": {
+      "first": {
+        "title": "1",
+        "paragraph": "A call panel is installed in the wall of the entrance"
+      },
+      "second": {
+        "title": "2",
+        "paragraph": "Apartment residents download the PrimoDoor program"
+      },
+      "third": {
+        "title": "3",
+        "paragraph": "Residents receive personal logins, passwords and connect to the system"
+      }
+    }
+  },
+  "form": {
+    "title": "Order a consultation",
+    "placeholder": {
+      "name": "Name",
+      "tel": "Phone",
+      "email": "E-mail address"
+    },
+    "btn": "Order",
+    "thanks": "Thank you for your inquiry. We will contact you soon!"
+  },
+  "footer": {
+    "product": {
+      "title": "Product",
+      "company": "Company",
+      "privacy": "Privacy policy",
+      "faq": "FAQ"
+    },
+    "support": {
+      "title": "Support",
+      "tel": "+380 (97) 779 01 01",
+      "email": "office@primonet.com.ua"
+    },
+    "location": {
+      "title": "Mailing address",
+      "address": "79010, Lviv, JSC 5312"
+    },
+    "app": "Our app"
+  },
+  "hardware": {
+    "line-one": {
+      "btn": "дізнатися більше",
+      "title": "Координатні домофони",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui ",
+      "device": [
+        {
+          "title": "PDP-101",
+          "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam ",
+          "link": "PDP-101"
+        },
+        {
+          "title": "PDS-100",
+          "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam ",
+          "link": "PDS-100"
+        },
+        {
+          "title": "PDC",
+          "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam ",
+          "link": "PDC"
+        },
+        {
+          "title": "PDS-004",
+          "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam ",
+          "link": "PDS-004"
+        }
+      ]
+    }
+  },
+  "devicePageItems": {
+    "PDP-101": {
+      "title": "PDP-101",
+      "subtitle": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui",
+      "downloads": [
+        {
+          "title": "instruction_1",
+          "link": "/assets/downloads/instruction_1.pdf "
+        },
+        {
+          "title": "instruction_2",
+          "link": "/assets/downloads/instruction_2.pdf "
+        },
+        {
+          "title": "instruction_3",
+          "link": "/assets/downloads/instruction_3.pdf "
+        },
+        {
+          "title": "instruction_4",
+          "link": "/assets/downloads/instruction_4.pdf "
+        }
+      ]
+    },
+    "PDS-100": {
+      "title": "PDS-100",
+      "subtitle": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui",
+      "downloads": [
+        {
+          "title": "instruction_1",
+          "link": "/assets/downloads/instruction_1.pdf "
+        },
+        {
+          "title": "instruction_2",
+          "link": "/assets/downloads/instruction_2.pdf "
+        },
+        {
+          "title": "instruction_3",
+          "link": "/assets/downloads/instruction_3.pdf "
+        },
+        {
+          "title": "instruction_4",
+          "link": "/assets/downloads/instruction_4.pdf "
+        }
+      ]
+    },
+    "PDC": {
+      "title": "PDC",
+      "subtitle": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui",
+      "downloads": [
+        {
+          "title": "instruction_1",
+          "link": "/assets/downloads/instruction_1.pdf "
+        },
+        {
+          "title": "instruction_2",
+          "link": "/assets/downloads/instruction_2.pdf "
+        },
+        {
+          "title": "instruction_3",
+          "link": "/assets/downloads/instruction_3.pdf "
+        },
+        {
+          "title": "instruction_4",
+          "link": "/assets/downloads/instruction_4.pdf "
+        }
+      ]
+    },
+    "PDS-004": {
+      "title": "PDS-004",
+      "subtitle": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui",
+      "downloads": [
+        {
+          "title": "instruction_1",
+          "link": "/assets/downloads/instruction_1.pdf "
+        },
+        {
+          "title": "instruction_2",
+          "link": "/assets/downloads/instruction_2.pdf "
+        },
+        {
+          "title": "instruction_3",
+          "link": "/assets/downloads/instruction_3.pdf "
+        },
+        {
+          "title": "instruction_4",
+          "link": "/assets/downloads/instruction_4.pdf "
+        }
+      ]
+    }
+  }
+}

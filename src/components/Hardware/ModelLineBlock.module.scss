@@ -1,0 +1,62 @@
+@import "../../styles/variables";
+
+.LineBlock {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+
+  &__mainContainer {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+
+    @include breakpoint(md) {
+      justify-content: space-between;
+
+      &__text {
+        @include breakpoint(md) {
+          width: 60%;
+        }
+      }
+    }
+
+    &__img {
+      margin-bottom: 2rem;
+      border-radius: $borderRadius2;
+      max-width: 100%;
+      height: auto;
+      width: 80%;
+      @include breakpoint(md) {
+        padding: 0;
+        width: 30%;
+        margin-bottom: 0;
+      }
+    }
+
+    @include breakpoint(md) {
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: space-between;
+
+      p {
+        max-width: 65%;
+      }
+
+      img {
+        // max-width: 30%;
+        padding-bottom: 0;
+      }
+    }
+  }
+
+  &__deviceContainer {
+    display: grid;
+    grid-gap: 2%;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+    @include breakpoint(md) {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+  }
+}

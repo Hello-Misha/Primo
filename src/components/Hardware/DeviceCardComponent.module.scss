@@ -1,0 +1,23 @@
+@import "../../styles/variables";
+
+.device {
+  width: auto;
+  @include breakpoint(md) {
+    max-width: 100%;
+  }
+
+  &__img {
+    padding-bottom: 2vh;
+    img {
+      border-radius: $borderRadius2;
+
+      max-width: 100%;
+      height: auto;
+      width: auto;
+    }
+  }
+}
+
+.Link {
+  text-decoration: none;
+}

@@ -1,0 +1,14 @@
+@import "../styles/variables";
+
+.Toogler {
+  display: flex;
+  align-items: baseline;
+  // margin: 0 5px;
+  margin-left: 1rem;
+  flex-direction: row;
+  cursor: pointer;
+
+  h3 {
+    margin: 0;
+  }
+}

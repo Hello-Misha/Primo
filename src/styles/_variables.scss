@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700;900&display=swap");
+
+//fonts
+$Montserrat: "Montserrat", sans-serif;
+
+//colors
+$MainColor: #3b59a5;
+$SecondColor: #24beef;
+
+//border radius
+$borderRadius: 53px;
+$borderRadius2: 5%;
+
+//border shadow
+$boxShadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+@mixin breakpoint($point) {
+  @if $point == sm {
+    @media (max-width: 576px) {
+      @content;
+    }
+  }
+  @if $point == xs {
+    @media (min-width: 577px) {
+      @content;
+    }
+  }
+  @if $point == md {
+    @media (min-width: 768px) {
+      @content;
+    }
+  }
+  @if $point == lg {
+    @media (min-width: 992px) {
+      @content;
+    }
+  }
+  @if $point == xl {
+    @media (min-width: 1200px) {
+      @content;
+    }
+  }
+  @if $point == xxl {
+    @media (min-width: 1440px) {
+      @content;
+    }
+  }
+}
+
+.Title-text {
+  font-family: $Montserrat;
+  font-weight: 300;
+  color: $MainColor;
+  margin-bottom: 1rem;
+
+  @include breakpoint(sm) {
+    font-size: 1.5rem;
+  }
+  @include breakpoint(md) {
+    font-size: 2rem;
+  }
+  @include breakpoint(lg) {
+    font-size: 2.5rem;
+  }
+  @include breakpoint(xl) {
+    font-size: 3rem;
+  }
+  @include breakpoint(xxl) {
+    font-size: 3.5rem;
+  }
+}
+
+.Title-bold {
+  font-family: $Montserrat;
+  font-weight: 700;
+  color: $MainColor;
+
+  @include breakpoint(sm) {
+    font-size: 1rem;
+  }
+  @include breakpoint(xs) {
+    font-size: 1.5rem;
+  }
+  @include breakpoint(md) {
+    font-size: 2rem;
+  }
+  @include breakpoint(lg) {
+    font-size: 3rem;
+  }
+}
+
+.Title-footer {
+  font-family: $Montserrat;
+  font-weight: 700;
+  font-size: 1rem;
+  color: $MainColor;
+
+  @include breakpoint(sm) {
+    font-size: 1rem;
+  }
+  @include breakpoint(xs) {
+    font-size: 1rem;
+  }
+  @include breakpoint(md) {
+    font-size: 1.5rem;
+  }
+  @include breakpoint(lg) {
+    font-size: 2rem;
+  }
+}
+
+.Subtitle {
+  font-family: $Montserrat;
+  font-weight: 600;
+  color: $MainColor;
+  @include breakpoint(sm) {
+    font-size: 0.7rem;
+  }
+  @include breakpoint(xs) {
+    font-size: 0.8rem;
+  }
+  @include breakpoint(md) {
+    font-size: 1rem;
+  }
+  @include breakpoint(lg) {
+    font-size: 1.1rem;
+  }
+  @include breakpoint(xl) {
+    font-size: 1.2rem;
+  }
+  @include breakpoint(xxl) {
+    font-size: 1.3rem;
+  }
+}
+
+.Paragraph-text {
+  font-family: $Montserrat;
+  font-weight: 300;
+  color: $MainColor;
+
+  @include breakpoint(sm) {
+    font-size: 0.7rem;
+  }
+  @include breakpoint(xs) {
+    font-size: 0.8rem;
+  }
+  @include breakpoint(md) {
+    font-size: 1rem;
+  }
+  @include breakpoint(lg) {
+    font-size: 1.1rem;
+  }
+  @include breakpoint(xl) {
+    font-size: 1.2rem;
+  }
+  @include breakpoint(xxl) {
+    font-size: 1.3rem;
+  }
+}
+
+.link {
+  font-weight: 600;
+  font-family: $Montserrat;
+  padding-bottom: 0.5rem;
+  font-size: 1rem;
+  color: $MainColor;
+
+  @include breakpoint(sm) {
+    font-size: 0.7rem;
+  }
+  @include breakpoint(xs) {
+    font-size: 0.8rem;
+  }
+  @include breakpoint(md) {
+    font-size: 1rem;
+  }
+  @include breakpoint(lg) {
+    font-size: 1.1rem;
+  }
+  @include breakpoint(xl) {
+    font-size: 1.2rem;
+  }
+  @include breakpoint(xxl) {
+    font-size: 1.3rem;
+  }
+
+  &:hover {
+    font-weight: 600;
+    color: $SecondColor;
+    transition: 0.3s ease all;
+    cursor: pointer;
+  }
+  &:link {
+    text-decoration: none;
+  }
+  &:visited {
+    text-decoration: none;
+  }
+}

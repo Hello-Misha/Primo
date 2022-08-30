@@ -1,0 +1,94 @@
+@import "../../styles/variables";
+
+.Connection {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  position: relative;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    position: relative;
+
+    @include breakpoint(md) {
+      flex-direction: column-reverse;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      max-width: 50%;
+      padding-right: 3rem;
+      @include breakpoint(lg) {
+        max-width: 60%;
+      }
+      @include breakpoint(xl) {
+        max-width: 70%;
+      }
+    }
+    &__AppStors {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      &__btn {
+        img {
+          max-width: 95%;
+          width: 100%;
+          height: auto;
+
+          margin: 0.5rem 0;
+          @include breakpoint(md) {
+            margin: 0;
+            width: 100%;
+
+            height: auto;
+          }
+        }
+      }
+    }
+
+    &__text {
+      text-align: center;
+      display: flex;
+      justify-content: space-between;
+
+      @include breakpoint(md) {
+        text-align: left;
+        padding-bottom: 3rem;
+      }
+
+      &__contentElement {
+        max-width: 30%;
+      }
+    }
+  }
+  &__phone {
+    margin: 0 auto;
+    z-index: 10;
+    img {
+      max-width: 60vw;
+      width: 100%;
+      height: auto;
+      content: url("../../img/4-phone-mobile.png");
+    }
+    @include breakpoint(md) {
+      margin: 0;
+      content: url("../../img/4-phone.png");
+    }
+  }
+}
+
+.lineImg {
+  @include breakpoint(md) {
+    content: url("../../img/4-line.png");
+    position: absolute;
+    right: 0;
+    top: 20%;
+    z-index: 1;
+
+    width: 80%;
+    padding-right: 3rem;
+  }
+}

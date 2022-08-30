@@ -1,0 +1,60 @@
+@import "../../styles/variables";
+
+.DevicePage {
+  display: flex;
+  flex-direction: column;
+  max-width: 1440px;
+  margin: 0 auto;
+
+  &__titleContainer {
+    padding-bottom: 2rem;
+  }
+
+  &__container {
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    @include breakpoint(sm) {
+      width: auto;
+    }
+    @include breakpoint(md) {
+      // max-width: 100%;
+      flex-direction: row;
+    }
+    &__description {
+      max-width: 100%;
+      @include breakpoint(md) {
+        max-width: 65%;
+      }
+    }
+
+    &__links {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      a {
+        padding-right: 2rem;
+      }
+      @include breakpoint(md) {
+        width: 30%;
+        flex-direction: column;
+
+        a {
+          padding-right: 0;
+        }
+      }
+    }
+  }
+  &__modalItem {
+    height: auto;
+    // height: 75vh;
+    margin: 0 auto;
+    width: 80vw;
+
+    @include breakpoint(md) {
+      width: 40vw;
+    }
+  }
+}

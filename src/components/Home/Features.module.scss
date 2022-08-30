@@ -1,0 +1,88 @@
+@import "../../styles/variables";
+
+.Features {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  &__containerMain {
+    &__menuContainer {
+      @include breakpoint(md) {
+        position: relative;
+      }
+
+      &__selectors {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 2rem;
+
+        position: relative;
+        z-index: 50;
+
+        @include breakpoint(md) {
+          max-width: 80%;
+        }
+        @include breakpoint(lg) {
+          max-width: 70%;
+        }
+
+        h3 {
+          font-weight: 600;
+          max-width: 20%;
+
+          &:hover {
+            color: $SecondColor;
+            transition: 0.2s ease all;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+    &__description {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      width: 100%;
+      max-width: 100%;
+      @include breakpoint(md) {
+        position: relative;
+        align-items: flex-end;
+        bottom: 5rem;
+        margin-bottom: -5rem;
+      }
+
+      @include breakpoint(lg) {
+        bottom: 9rem;
+        margin-bottom: -8rem;
+      }
+
+      &__text {
+        max-width: 70%;
+      }
+
+      img {
+        width: 100%;
+        height: auto;
+        max-width: 20%;
+      }
+    }
+  }
+}
+.lineImg {
+  @include breakpoint(md) {
+    width: 100%;
+    height: auto;
+    content: url("../../img/3-line.png");
+    position: relative;
+    bottom: 2rem;
+    margin-bottom: -2rem;
+  }
+}
+.selected {
+  position: relative;
+  box-shadow: 0 5px 2px -2px $MainColor;
+
+  transition: 0.3s ease all;
+}

@@ -1,0 +1,129 @@
+@import "../styles/variables";
+
+.Footer {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1440px;
+
+  position: relative;
+  z-index: 100;
+
+  padding: 15rem 1.5rem 10rem 1.5rem;
+
+  @include breakpoint(md) {
+    padding: 15rem 3rem 10rem 3rem;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  @include breakpoint(xxl) {
+    padding: 15rem 0 10rem 0;
+  }
+
+  &__product {
+    display: flex;
+    flex-direction: column;
+    @include breakpoint(md) {
+      max-width: 33%;
+      flex-direction: column-reverse;
+      justify-content: flex-start;
+      align-items: flex-start;
+    }
+    @include breakpoint(xl) {
+      max-width: 25%;
+    }
+    img {
+      width: 50%;
+      max-width: 30%;
+      height: auto;
+      padding-bottom: 2rem;
+    }
+    h2 {
+      visibility: hidden;
+      @include breakpoint(md) {
+        visibility: visible;
+      }
+    }
+  }
+  &__support {
+    max-height: 5vh;
+    @include breakpoint(md) {
+      max-width: 33%;
+    }
+    @include breakpoint(xl) {
+      max-width: 25%;
+    }
+    h2 {
+      visibility: hidden;
+      @include breakpoint(md) {
+        visibility: visible;
+      }
+    }
+
+    &__contacts {
+      display: flex;
+      justify-content: space-between;
+      // align-items: flex-end;
+      @include breakpoint(md) {
+        flex-direction: column;
+      }
+    }
+
+    &__address {
+      position: relative;
+      bottom: 15rem;
+      @include breakpoint(sm) {
+        bottom: 13rem;
+      }
+      @include breakpoint(md) {
+        position: static;
+      }
+    }
+  }
+  &__app {
+    @include breakpoint(md) {
+      max-width: 33%;
+    }
+    @include breakpoint(xl) {
+      max-width: 25%;
+    }
+    h2 {
+      visibility: hidden;
+      @include breakpoint(md) {
+        visibility: visible;
+      }
+    }
+    &__AppStors {
+      margin: 1rem -5px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      &__btn {
+        margin: 0 5px;
+        img {
+          width: 100%;
+          max-width: 350px;
+          height: auto;
+        }
+      }
+    }
+    &__socials {
+      // margin: 0 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      &__btn {
+        padding-right: 2rem;
+        img {
+          width: 100%;
+          max-width: 50px;
+          height: auto;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+@import "../../styles/variables";
+
+.Stats {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+
+  @include breakpoint(md) {
+    margin: 5rem auto;
+  }
+
+  &__contentElement {
+    text-align: center;
+  }
+}

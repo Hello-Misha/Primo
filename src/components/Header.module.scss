@@ -1,0 +1,218 @@
+@import "../styles/variables";
+
+.header {
+  background: #fff;
+  box-shadow: $boxShadow;
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  height: 100px;
+
+  padding: 0 1.5rem;
+
+  @include breakpoint(md) {
+    padding: 0 3rem;
+  }
+  transition: 0.3s ease all;
+
+  &__content {
+    overflow: hidden;
+    margin: 0 auto;
+    max-width: 1440px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 100;
+    // padding-top: 1rem;
+
+    @include breakpoint(md) {
+      flex-direction: row;
+
+      line-height: normal;
+    }
+
+    &__logo {
+      display: flex;
+      align-items: center;
+      &__ukraine {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        @include breakpoint(md) {
+          // padding-bottom: 0.8vh;
+        }
+        img {
+          width: 100%;
+          max-width: 50px;
+          height: auto;
+        }
+      }
+      h2 {
+        margin: 0;
+        padding: 0 1rem;
+        font-size: 1.5rem;
+        font-weight: 300;
+        color: $MainColor;
+        // font-style: italic;
+        font-family: $Montserrat;
+        @include breakpoint(sm) {
+          font-size: 0.7rem;
+        }
+        @include breakpoint(md) {
+          // padding-bottom: 0.8vh;
+          display: none;
+          font-size: 1.1rem;
+        }
+        @include breakpoint(lg) {
+          display: initial;
+          font-size: 1.3rem;
+        }
+        @include breakpoint(xl) {
+          font-size: 1.5rem;
+        }
+        @include breakpoint(xxl) {
+          font-size: 1.7rem;
+        }
+      }
+      &__primodoor {
+        width: 100%;
+        max-width: 100px;
+        height: auto;
+        position: relative;
+        z-index: 150;
+      }
+    }
+
+    &__nav {
+      top: 0;
+      left: 100%;
+      bottom: 0;
+      width: 100%;
+      height: 80vh;
+      position: fixed;
+      z-index: 101;
+      display: flex;
+      flex-direction: column;
+      justify-content: baseline;
+      text-align: center;
+      background: #fff;
+      backdrop-filter: blur(2px);
+      transform: translate(0);
+      transition: 0.3s ease transform;
+      box-shadow: $boxShadow;
+      padding-top: 7rem;
+
+      @include breakpoint(md) {
+        padding-top: 0;
+        transform: none;
+        flex-direction: row;
+
+        align-items: center;
+        background: transparent;
+        width: auto;
+        height: 100%;
+        position: static;
+        box-shadow: none;
+      }
+
+      ul {
+        padding: 0;
+
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        margin: 0 -10px;
+
+        @include breakpoint(md) {
+          flex-direction: row;
+          align-items: flex-end;
+        }
+        li {
+          margin: 0 10px;
+          font-weight: bold;
+          font-size: 1.5rem;
+          text-decoration: none;
+          transition: 0.3s ease all;
+          cursor: pointer;
+
+          a {
+            // margin-bottom: -5px;
+            color: $MainColor;
+
+            &:link {
+              text-decoration: none;
+            }
+            &:visited {
+              text-decoration: none;
+            }
+            &:hover {
+              color: $SecondColor;
+              transition: 0.3s ease all;
+              cursor: pointer;
+            }
+            &:active {
+              box-shadow: 0 5px 2px -2px $MainColor;
+            }
+          }
+        }
+      }
+
+      &.isMenu {
+        z-index: 20;
+        transform: translate(-100%);
+
+        @include breakpoint(md) {
+          transform: translate(-100%);
+        }
+      }
+
+      &__LangSwitcher {
+        display: flex;
+        padding-top: 2rem;
+        justify-content: center;
+        align-items: flex-end;
+
+        flex-direction: row;
+        cursor: pointer;
+
+        @include breakpoint(md) {
+          // flex-direction: row;
+          padding-top: 0;
+          align-items: flex-end;
+          //margin-right: calc();
+
+          &:first-child {
+            margin-left: 2rem;
+          }
+        }
+
+        h3 {
+          font-size: 1.5rem;
+          font-weight: 300;
+          color: $MainColor;
+          margin: 0 0.5rem;
+          // margin: 0;
+        }
+      }
+    }
+    &__toogle {
+      z-index: 20;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      font-size: 2rem;
+      transition: 0.3s ease all;
+      position: relative;
+
+      &:hover {
+        color: $MainColor;
+      }
+
+      @include breakpoint(md) {
+        display: none;
+      }
+    }
+  }
+}

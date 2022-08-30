@@ -1,0 +1,21 @@
+@import "../../styles/variables";
+
+.container {
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  &__btn {
+    padding: 1rem;
+    img {
+      width: 100%;
+      max-width: 350px;
+      height: auto;
+    }
+  }
+
+  @include breakpoint(md) {
+    display: none;
+  }
+}
